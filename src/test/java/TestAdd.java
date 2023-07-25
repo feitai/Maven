@@ -31,6 +31,7 @@ public class TestAdd {
     public void testCon() throws SQLException{
         try {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_cbg","root","a");
+            System.out.println("连接成功");
 
         }catch (SQLException e){
             e.printStackTrace();
